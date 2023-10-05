@@ -238,7 +238,6 @@ label {
 input[type="checkbox"] + label{
   width: auto;
   height: auto;
-  float: relative;
   display: inline;
   vertical-align: top;
 }
