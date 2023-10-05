@@ -208,24 +208,31 @@ label {
 /* ===== LAYOUT STYLES ====== */
 #content {
   text-align: center;
+  background-color: rgb(165, 165, 168);
 }
 
 h1 {
-  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
+  padding: 0.75em;
   font-family: 'Chakra Petch', "Courier New", cursive;
   font-weight: 600;
   font-size: 1.8em;
+  background-color: rgb(126, 124, 130);
+  color: rgb(198, 198, 199);
 }
 
 p {
+  margin: 1em;
   padding-bottom: 1.5em;
   font-family: 'Chakra Petch', 'Courier New', sans-serif;
   font-size: 0.875em;
+  color: rgb(99, 95, 105);
 }
 
 label {
   font-family: 'Chakra Petch', 'Courier New', sans-serif;
   font-size: 0.875em;
+  color: white;
 }
 
 input[type="checkbox"] + label{
@@ -250,5 +257,8 @@ input[type="checkbox"] + label{
 
 /* ===== STATE STYLES ======= */
 @media screen and (min-width: 620px) {
-
+  p {
+    font-size: 1.2em;
+    padding-bottom: .7em;
+  }
 }

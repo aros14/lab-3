@@ -4,16 +4,19 @@ jQuery(function($) {
   $('html').addClass('hasjs');
 });
 
+/*source for this jquery:
+https://www.abstractapi.com/guides/validate-email-address-jquery#email-validation-using-jquery-simple-method
+*/
 var email_val = "";
 var regexSimpleEmail = /@/;
 
-$("#submitBtn").on("click",function(){
+$("#submit").on("click",function(){
     email_val = $("input").val();
     if (validateEmail(email_val,regexSimpleEmail)){
-        $("#result").addClass("isemail").show().html(`Your email ${email_val} is valid!`);
+        $("#result").addClass("isemail").show().html(`Your email is valid!`);
     }
     else{
-        $("#result").removeClass("isemail").show().html(`Sorry, Your email ${email_val} is invalid!`);
+        $("#result").removeClass("isemail").show().html(`Sorry, Your email is invalid! Please try again.`);
     }
 });
 
