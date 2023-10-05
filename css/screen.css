@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -191,6 +193,7 @@ img, audio, video {
   http://www.modularscale.com/?22&px&1.667&web&text
 */
 
+
 html {
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
@@ -203,7 +206,49 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+#content {
+  text-align: center;
+}
 
+h1 {
+  padding-bottom: 1.5em;
+  font-family: 'Chakra Petch', "Courier New", cursive;
+  font-weight: 600;
+  font-size: 1.8em;
+}
+
+p {
+  padding-bottom: 1.5em;
+  font-family: 'Chakra Petch', 'Courier New', sans-serif;
+  font-size: 0.875em;
+}
+
+label {
+  font-family: 'Chakra Petch', 'Courier New', sans-serif;
+  font-size: 0.875em;
+}
+
+input[type="checkbox"] + label{
+  width: auto;
+  height: auto;
+  float: relative;
+  display: inline;
+  vertical-align: top;
+}
+
+#input-age-verification{
+  padding: 1em;
+}
+
+#input-submit {
+  padding: 1em;
+}
+
+#submit {
+  font-family: 'Chakra Petch', 'Courier New', sans-serif;
+}
 
 /* ===== STATE STYLES ======= */
+@media screen and (min-width: 620px) {
 
+}
